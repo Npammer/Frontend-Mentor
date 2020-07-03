@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
   <link rel="stylesheet" href="style.css">
 
   <title>Frontend Mentor | Fylo data storage component</title>
@@ -24,17 +25,22 @@
       </div>
 
       <div id="box-2">
-        <div id="headroom">
-
+        <div id="bubble">
+          <div class="speech-bubble">
+            <h1>185 GB left</h1>
+          </div>
         </div>
-        <div id="content">
-
-          You’ve used 815 GB of your storage
-
-          185 GB Left
-
-          0 GB
-          1000 GB
+        <div id="lower-box">
+          <div id="content">
+            <h4>You have used <b>815 GB</b> of your storage</h4>
+            <div class="slidecontainer">
+              <input type="range" min="1" max="100" value="81" class="slider" id="myRange">
+            </div>
+            <div id="indicators">
+              <h5>0 GB</h5>
+              <h5>1000 GB</h5>
+            </div>
+          </div>
         </div>
       </div>
     </div>
