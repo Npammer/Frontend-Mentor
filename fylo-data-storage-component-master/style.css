@@ -64,12 +64,15 @@
 
 .speech-bubble h1 {
   margin: 0px;
+  font-size: 32px;
+  font-family: Raleway;
 }
 
 .speech-bubble {
   position: relative;
   background: #ffffff;
   border-radius: .4em;
+  width: 60%;
 }
 
 .speech-bubble:after {
